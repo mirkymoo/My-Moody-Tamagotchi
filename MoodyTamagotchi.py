@@ -4,7 +4,7 @@ import random
 check_tamagotchi = input("Would you like to check on your tamagotchi? Please type \"Y\" for yes or \"N\" for no:")
 
 while check_tamagotchi == "Y":
-    tamagotchi_mood = random.randrange(0,5)
+    tamagotchi_mood = random.choice([1,2,3,4,5])
     if tamagotchi_mood == 0 or 1:
          print("Your tamagotchi is happy.")
     elif tamagotchi_mood == 2:
